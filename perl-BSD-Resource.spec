@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla BSD-Resource
 Name:		perl-BSD-Resource
 Version:	1.0701
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/BSD/BSD-Resource-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/BSD/BSD-Resource-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BSD-Resource - BSD process resource limit and priority functions.
 
 %description -l pl
-BSD-Resource - modu³ zawiera rozszerzon± implementacjê funkcji ograniczenia
-zasobów procesów i pierwszeñstwa procesów.
+BSD-Resource - modu³ zawiera rozszerzon± implementacjê funkcji
+ograniczenia zasobów procesów i pierwszeñstwa procesów.
 
 %prep
 %setup -q -n BSD-Resource-%{version}
