@@ -4,8 +4,8 @@
 # hgw why it doesn't work on builders... temporary disables.
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	BSD
-%define	pnam	Resource
+%define		pdir	BSD
+%define		pnam	Resource
 Summary:	Perl module with BSD process resource limit and priority functions
 Summary(cs):	Funkce pro BSD limity zdrojù a priority procesù
 Summary(da):	BSD-procesresursegrænse- og -prioritetsfunktioner
