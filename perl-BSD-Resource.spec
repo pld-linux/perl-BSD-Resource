@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	BSD
-%define	pnam	Resource
-Summary:	BSD::Resource perl module
-Summary(pl):	Modu³ perla BSD::Resource
+%define		pdir	BSD
+%define		pnam	Resource
+Summary:	BSD::Resource Perl module
+Summary(cs):	Modul BSD::Resource pro Perl
+Summary(da):	Perlmodul BSD::Resource
+Summary(de):	BSD::Resource Perl Modul
+Summary(es):	Módulo de Perl BSD::Resource
+Summary(fr):	Module Perl BSD::Resource
+Summary(it):	Modulo di Perl BSD::Resource
+Summary(ja):	BSD::Resource Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	BSD::Resource ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul BSD::Resource
+Summary(pl):	Modu³ Perla BSD::Resource
+Summary(pt):	Módulo de Perl BSD::Resource
+Summary(pt_BR):	Módulo Perl BSD::Resource
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl BSD::Resource
+Summary(sv):	BSD::Resource Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl BSD::Resource
+Summary(zh_CN):	BSD::Resource Perl Ä£¿é
 Name:		perl-BSD-Resource
 Version:	1.15
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
