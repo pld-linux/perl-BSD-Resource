@@ -2,8 +2,8 @@
 Summary:	BSD-Resource perl module
 Summary(pl):	Modu³ perla BSD-Resource
 Name:		perl-BSD-Resource
-Version:	1.10
-Release:	2
+Version:	1.11
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
