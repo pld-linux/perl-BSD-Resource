@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	BSD
 %define	pnam	Resource
-%include	/usr/lib/rpm/macros.perl
 Summary:	BSD-Resource perl module
 Summary(pl):	Modu³ perla BSD-Resource
 Name:		perl-BSD-Resource
 Version:	1.11
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +21,7 @@ BSD-Resource - modu³ zawiera rozszerzon± implementacjê funkcji
 ograniczenia zasobów procesów i pierwszeñstwa procesów.
 
 %prep
-%setup -q -n BSD-Resource-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
