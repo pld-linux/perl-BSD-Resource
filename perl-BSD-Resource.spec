@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	BSD
 %define		pnam	Resource
@@ -17,13 +21,13 @@ Summary(sv):	BSD-processresursgräns- och -prioritetsfunktioner
 Summary(tr):	BSD süreç özkaynak sýnýrý ve önceliði iþlevleri
 Summary(zh_CN):	BSD ½ø³Ì×ÊÔ´ÏÞÖÆºÍÓÅÏÈ¼¶º¯Êý
 Name:		perl-BSD-Resource
-Version:	1.22
-Release:	2
+Version:	1.23
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6b63e4a0164e65f510e3b2dfbfd93090
-BuildRequires:	perl-devel >= 5.6
+# Source0-md5:	e236559c301f00a1d20eaf5931e7ad6a
+BuildRequires:	perl-devel >= 5.8
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -94,12 +98,16 @@ processbegränsningar och prioriteter.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make} OPTIMIZE="%{rpmcflags}"
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
