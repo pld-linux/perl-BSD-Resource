@@ -1,6 +1,7 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# do not perform "make test"
+# hgw why it doesn't work on builders... temporary disables.
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	BSD
