@@ -1,23 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	BSD
 %define		pnam	Resource
-Summary:	BSD::Resource Perl module
-Summary(cs):	Modul BSD::Resource pro Perl
-Summary(da):	Perlmodul BSD::Resource
-Summary(de):	BSD::Resource Perl Modul
-Summary(es):	Módulo de Perl BSD::Resource
-Summary(fr):	Module Perl BSD::Resource
-Summary(it):	Modulo di Perl BSD::Resource
-Summary(ja):	BSD::Resource Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	BSD::Resource ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul BSD::Resource
-Summary(pl):	Modu³ Perla BSD::Resource
-Summary(pt):	Módulo de Perl BSD::Resource
-Summary(pt_BR):	Módulo Perl BSD::Resource
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl BSD::Resource
-Summary(sv):	BSD::Resource Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl BSD::Resource
-Summary(zh_CN):	BSD::Resource Perl Ä£¿é
+Summary:	Perl module with BSD process resource limit functions
 Name:		perl-BSD-Resource
 Version:	1.22
 Release:	1
@@ -29,7 +13,11 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-BSD::Resource - BSD process resource limit and priority functions.
+This Perl extension implements the BSD process resource limit
+functions (getrusage(), getrlimit(), setrlimit()) and the BSD process
+priority functions. These are available also via core Perl but here we
+do more tricks so that the PRIO_* are available (getpriority(),
+setpriority())
 
 %description -l pl
 BSD::Resource - modu³ zawiera rozszerzon± implementacjê funkcji
