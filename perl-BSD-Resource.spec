@@ -23,7 +23,7 @@ Summary(tr):	BSD süreç özkaynak sınırı ve önceliği işlevleri
 Summary(zh_CN):	BSD ½ø³Ì×ÊÔ´ÏŞÖÆºÍÓÅÏÈ¼¶º¯Êı
 Name:		perl-BSD-Resource
 Version:	1.24
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
