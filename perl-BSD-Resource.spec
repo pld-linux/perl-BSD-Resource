@@ -24,7 +24,8 @@ Summary(zh_CN):	BSD 进程资源限制和优先级函数
 Name:		perl-BSD-Resource
 Version:	1.24
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9589f6bbae6520dd053a8f50fb934e7c
