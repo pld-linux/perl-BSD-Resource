@@ -19,7 +19,7 @@ Summary(sv):	BSD::Resource Perlmodul
 Summary(uk):	Модуль для Perl BSD::Resource
 Summary(zh_CN):	BSD::Resource Perl дё©И
 Name:		perl-BSD-Resource
-Version:	1.21
+Version:	1.22
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
