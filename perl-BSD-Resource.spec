@@ -19,8 +19,8 @@ Summary(sv):	BSD::Resource Perlmodul
 Summary(uk):	Модуль для Perl BSD::Resource
 Summary(zh_CN):	BSD::Resource Perl дё©И
 Name:		perl-BSD-Resource
-Version:	1.15
-Release:	2
+Version:	1.17
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
