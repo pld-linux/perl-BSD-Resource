@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	BSD
 %define	pnam	Resource
-Summary:	BSD-Resource perl module
-Summary(pl):	Modu³ perla BSD-Resource
+Summary:	BSD::Resource perl module
+Summary(pl):	Modu³ perla BSD::Resource
 Name:		perl-BSD-Resource
 Version:	1.11
 Release:	3
@@ -14,10 +14,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-BSD-Resource - BSD process resource limit and priority functions.
+BSD::Resource - BSD process resource limit and priority functions.
 
 %description -l pl
-BSD-Resource - modu³ zawiera rozszerzon± implementacjê funkcji
+BSD::Resource - modu³ zawiera rozszerzon± implementacjê funkcji
 ograniczenia zasobów procesów i pierwszeñstwa procesów.
 
 %prep
