@@ -4,8 +4,8 @@
 Summary:	BSD::Resource perl module
 Summary(pl):	Modu³ perla BSD::Resource
 Name:		perl-BSD-Resource
-Version:	1.11
-Release:	3
+Version:	1.15
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
