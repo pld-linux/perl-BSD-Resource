@@ -2,6 +2,7 @@
 %define		pdir	BSD
 %define		pnam	Resource
 Summary:	Perl module with BSD process resource limit functions
+Summary(pl):	Modu³ Perla z funkcjami BSD obs³uguj±cymi limity zasobów dla procesów
 Name:		perl-BSD-Resource
 Version:	1.22
 Release:	1
@@ -17,11 +18,14 @@ This Perl extension implements the BSD process resource limit
 functions (getrusage(), getrlimit(), setrlimit()) and the BSD process
 priority functions. These are available also via core Perl but here we
 do more tricks so that the PRIO_* are available (getpriority(),
-setpriority())
+setpriority()).
 
 %description -l pl
-BSD::Resource - modu³ zawiera rozszerzon± implementacjê funkcji
-ograniczenia zasobów procesów i pierwszeñstwa procesów.
+To rozszerzenie Perle jest implementacj± funkcji BSD dotycz±cych
+limitów zasobów dla procesów (getrusage(), getrlimit(), setrlimit())
+oraz funkcji BSD zwi±zanych z priorytetami procesów. S± one dostêpne
+tak¿e z podstawowego Perla, ale ten modu³ pozwala na wiêcej sztuczek,
+bo dostêpne s± PRIO_* (getpriority(), setpriority()).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
