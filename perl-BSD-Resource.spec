@@ -22,13 +22,14 @@ Summary(sv):	BSD-processresursgräns- och -prioritetsfunktioner
 Summary(tr):	BSD süreç özkaynak sınırı ve önceliği işlevleri
 Summary(zh_CN):	BSD ½ø³Ì×ÊÔ´ÏŞÖÆºÍÓÅÏÈ¼¶º¯Êı
 Name:		perl-BSD-Resource
-Version:	1.26
-Release:	2
+Version:	1.28
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	27748a44a8f10125af1e20b23a6f6401
+# Source0-md5:	bf3ecc4127a831f2cd359bf920dde1cb
+URL:		http://search.cpan.org/dist/BSD-Resource/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -65,6 +66,7 @@ Modulo che offre un'interfaccia per testare e impostare i limiti e le
 priorità dei processi.
 
 %description -l ja
+
 ¥×¥í¥»¥¹¤ÎÀ©¸Â¤ÈÍ¥ÀèÅÙ¤ò¥Æ¥¹¥È¤·ÀßÄê¤¹¤ë°Ù¤Î¥¤¥ó¥¿¡¼¥Õ¥§¥¤¥¹¤òÄó¶¡¤¹¤ë
 ¥â¥¸¥å¡¼¥ë¤Ç¤¹¡£
 
