@@ -66,7 +66,6 @@ Modulo che offre un'interfaccia per testare e impostare i limiti e le
 prioritр dei processi.
 
 %description -l ja
-
 е╫еэе╗е╣д╬└й╕┬д╚═е└ш┼┘дЄе╞е╣е╚д╖└▀─ъд╣ды░┘д╬едеєе┐б╝е╒езеде╣дЄ─є╢бд╣ды
 ете╕ехб╝еыд╟д╣бг
 
