@@ -7,20 +7,20 @@
 %define		pdir	BSD
 %define		pnam	Resource
 Summary:	Perl module with BSD process resource limit and priority functions
-Summary(cs):	Funkce pro BSD limity zdrojù a priority procesù
-Summary(da):	BSD-procesresursegrænse- og -prioritetsfunktioner
-Summary(de):	Funktionen zum Einstellen von Einschränkungen und Prioritäten der Ressourcen des BSD-Prozesses
-Summary(es):	Funciones de prioridad y limite de recusros del proceso BSD
-Summary(fr):	Limite de ressource de processus BSD et fonctions prioritaires
-Summary(it):	Impostazione dei limiti e delle priorità delle risorse del processo BSD
-Summary(ja):	BSD¤Î¥×¥í¥»¥¹¥ê¥½¡¼¥¹¤ÎÀ©¸Â¤ÈÍ¥ÀèÅÙ¤Îµ¡Ç½
-Summary(ko):	BSD ÇÁ·Î¼¼½º ÀÚ¿ø ÇÑ°è¿Í ¿ì¼± ¼øÀ§ ÇÔ¼ö
-Summary(pl):	Modu³ Perla z funkcjami BSD obs³uguj±cymi limity zasobów dla procesów
-Summary(pt):	Funções de limitação de recursos e prioridades dos processos do BSD
-Summary(pt_BR):	Funções de limitação de recursos e prioridades dos processos do BSD
-Summary(sv):	BSD-processresursgräns- och -prioritetsfunktioner
-Summary(tr):	BSD süreç özkaynak sınırı ve önceliği işlevleri
-Summary(zh_CN):	BSD ½ø³Ì×ÊÔ´ÏŞÖÆºÍÓÅÏÈ¼¶º¯Êı
+Summary(cs.UTF-8):   Funkce pro BSD limity zdrojÅ¯ a priority procesÅ¯
+Summary(da.UTF-8):   BSD-procesresursegrÃ¦nse- og -prioritetsfunktioner
+Summary(de.UTF-8):   Funktionen zum Einstellen von EinschrÃ¤nkungen und PrioritÃ¤ten der Ressourcen des BSD-Prozesses
+Summary(es.UTF-8):   Funciones de prioridad y limite de recusros del proceso BSD
+Summary(fr.UTF-8):   Limite de ressource de processus BSD et fonctions prioritaires
+Summary(it.UTF-8):   Impostazione dei limiti e delle prioritÃ  delle risorse del processo BSD
+Summary(ja.UTF-8):   BSDã®ãƒ—ãƒ­ã‚»ã‚¹ãƒªã‚½ãƒ¼ã‚¹ã®åˆ¶é™ã¨å„ªå…ˆåº¦ã®æ©Ÿèƒ½
+Summary(ko.UTF-8):   BSD í”„ë¡œì„¸ìŠ¤ ìì› í•œê³„ì™€ ìš°ì„  ìˆœìœ„ í•¨ìˆ˜
+Summary(pl.UTF-8):   ModuÅ‚ Perla z funkcjami BSD obsÅ‚ugujÄ…cymi limity zasobÃ³w dla procesÃ³w
+Summary(pt.UTF-8):   FunÃ§Ãµes de limitaÃ§Ã£o de recursos e prioridades dos processos do BSD
+Summary(pt_BR.UTF-8):   FunÃ§Ãµes de limitaÃ§Ã£o de recursos e prioridades dos processos do BSD
+Summary(sv.UTF-8):   BSD-processresursgrÃ¤ns- och -prioritetsfunktioner
+Summary(tr.UTF-8):   BSD sÃ¼reÃ§ Ã¶zkaynak sÄ±nÄ±rÄ± ve Ã¶nceliÄŸi iÅŸlevleri
+Summary(zh_CN.UTF-8):   BSD è¿›ç¨‹èµ„æºé™åˆ¶å’Œä¼˜å…ˆçº§å‡½æ•°
 Name:		perl-BSD-Resource
 Version:	1.28
 Release:	1
@@ -41,59 +41,59 @@ priority functions. These are available also via core Perl but here we
 do more tricks so that the PRIO_* are available (getpriority(),
 setpriority()).
 
-%description -l cs
-Modul poskytující rozhraní pro testování a nastavování limitù zdrojù a
+%description -l cs.UTF-8
+Modul poskytujÃ­cÃ­ rozhranÃ­ pro testovÃ¡nÃ­ a nastavovÃ¡nÃ­ limitÅ¯ zdrojÅ¯ a
 priorit procesu.
 
-%description -l da
-Et modul som leverer en grænseflade til at teste og sætte
-procesbegrænsninger og prioriteter.
+%description -l da.UTF-8
+Et modul som leverer en grÃ¦nseflade til at teste og sÃ¦tte
+procesbegrÃ¦nsninger og prioriteter.
 
-%description -l de
-Ein Modul mit einem Interface für das Prüfen und Einstellen von
-Prozesseinschränkgungen und -prioritäten.
+%description -l de.UTF-8
+Ein Modul mit einem Interface fÃ¼r das PrÃ¼fen und Einstellen von
+ProzesseinschrÃ¤nkgungen und -prioritÃ¤ten.
 
-%description -l es
-Módulo que proporciona una interfaz para chequear y configurar los
-límites del proceso y las prioridades.
+%description -l es.UTF-8
+MÃ³dulo que proporciona una interfaz para chequear y configurar los
+lÃ­mites del proceso y las prioridades.
 
-%description -l fr
-Module fournissant une interface pour tester et établir les limites de
-processus et les priorités.
+%description -l fr.UTF-8
+Module fournissant une interface pour tester et Ã©tablir les limites de
+processus et les prioritÃ©s.
 
-%description -l it
+%description -l it.UTF-8
 Modulo che offre un'interfaccia per testare e impostare i limiti e le
-priorità dei processi.
+prioritÃ  dei processi.
 
-%description -l ja
-¥×¥í¥»¥¹¤ÎÀ©¸Â¤ÈÍ¥ÀèÅÙ¤ò¥Æ¥¹¥È¤·ÀßÄê¤¹¤ë°Ù¤Î¥¤¥ó¥¿¡¼¥Õ¥§¥¤¥¹¤òÄó¶¡¤¹¤ë
-¥â¥¸¥å¡¼¥ë¤Ç¤¹¡£
+%description -l ja.UTF-8
+ãƒ—ãƒ­ã‚»ã‚¹ã®åˆ¶é™ã¨å„ªå…ˆåº¦ã‚’ãƒ†ã‚¹ãƒˆã—è¨­å®šã™ã‚‹ç‚ºã®ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ã‚¤ã‚¹ã‚’æä¾›ã™ã‚‹
+ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã§ã™ã€‚
 
-%description -l ko
-ÇÁ·Î¼¼½º ÇÑ°è¿Í ¿ì¼± ¼øÀ§¸¦ ¼³Á¤ÇÏ°í ½ÃÇèÇÏ´Âµ¥ »ç¿ëµÇ´Â ÀÎÅÍÆäÀÌ½º¸¦
-Á¦°øÇÏ´Â ¸ğµâ.
+%description -l ko.UTF-8
+í”„ë¡œì„¸ìŠ¤ í•œê³„ì™€ ìš°ì„  ìˆœìœ„ë¥¼ ì„¤ì •í•˜ê³  ì‹œí—˜í•˜ëŠ”ë° ì‚¬ìš©ë˜ëŠ” ì¸í„°í˜ì´ìŠ¤ë¥¼
+ì œê³µí•˜ëŠ” ëª¨ë“ˆ.
 
-%description -l pl
-To rozszerzenie Perle jest implementacj± funkcji BSD dotycz±cych
-limitów zasobów dla procesów (getrusage(), getrlimit(), setrlimit())
-oraz funkcji BSD zwi±zanych z priorytetami procesów. S± one dostêpne
-tak¿e z podstawowego Perla, ale ten modu³ pozwala na wiêcej sztuczek,
-bo dostêpne s± PRIO_* (getpriority(), setpriority()).
+%description -l pl.UTF-8
+To rozszerzenie Perle jest implementacjÄ… funkcji BSD dotyczÄ…cych
+limitÃ³w zasobÃ³w dla procesÃ³w (getrusage(), getrlimit(), setrlimit())
+oraz funkcji BSD zwiÄ…zanych z priorytetami procesÃ³w. SÄ… one dostÄ™pne
+takÅ¼e z podstawowego Perla, ale ten moduÅ‚ pozwala na wiÄ™cej sztuczek,
+bo dostÄ™pne sÄ… PRIO_* (getpriority(), setpriority()).
 
-%description -l pt
-Um módulo que oferece uma interface para testar e definir os limites e
+%description -l pt.UTF-8
+Um mÃ³dulo que oferece uma interface para testar e definir os limites e
 prioridades dos processos.
 
-%description -l pt_BR
-Um módulo que oferece uma interface para testar e definir os limites e
+%description -l pt_BR.UTF-8
+Um mÃ³dulo que oferece uma interface para testar e definir os limites e
 prioridades dos processos.
 
-%description -l sv
-En modul som tillhandahåller ett gränssnitt för att testa och sätta
-processbegränsningar och prioriteter.
+%description -l sv.UTF-8
+En modul som tillhandahÃ¥ller ett grÃ¤nssnitt fÃ¶r att testa och sÃ¤tta
+processbegrÃ¤nsningar och prioriteter.
 
-%description -l zh_CN
-Îª²âÊÔºÍÉèÖÃ½ø³ÌÏŞ¶ÈºÍÓÅÏÈ¼¶¶øÌá¹©µÄÄ£¿é¡£
+%description -l zh_CN.UTF-8
+ä¸ºæµ‹è¯•å’Œè®¾ç½®è¿›ç¨‹é™åº¦å’Œä¼˜å…ˆçº§è€Œæä¾›çš„æ¨¡å—ã€‚
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
