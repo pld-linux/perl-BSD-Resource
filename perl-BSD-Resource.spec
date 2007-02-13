@@ -7,20 +7,20 @@
 %define		pdir	BSD
 %define		pnam	Resource
 Summary:	Perl module with BSD process resource limit and priority functions
-Summary(cs.UTF-8):   Funkce pro BSD limity zdrojů a priority procesů
-Summary(da.UTF-8):   BSD-procesresursegrænse- og -prioritetsfunktioner
-Summary(de.UTF-8):   Funktionen zum Einstellen von Einschränkungen und Prioritäten der Ressourcen des BSD-Prozesses
-Summary(es.UTF-8):   Funciones de prioridad y limite de recusros del proceso BSD
-Summary(fr.UTF-8):   Limite de ressource de processus BSD et fonctions prioritaires
-Summary(it.UTF-8):   Impostazione dei limiti e delle priorità delle risorse del processo BSD
-Summary(ja.UTF-8):   BSDのプロセスリソースの制限と優先度の機能
-Summary(ko.UTF-8):   BSD 프로세스 자원 한계와 우선 순위 함수
-Summary(pl.UTF-8):   Moduł Perla z funkcjami BSD obsługującymi limity zasobów dla procesów
-Summary(pt.UTF-8):   Funções de limitação de recursos e prioridades dos processos do BSD
-Summary(pt_BR.UTF-8):   Funções de limitação de recursos e prioridades dos processos do BSD
-Summary(sv.UTF-8):   BSD-processresursgräns- och -prioritetsfunktioner
-Summary(tr.UTF-8):   BSD süreç özkaynak sınırı ve önceliği işlevleri
-Summary(zh_CN.UTF-8):   BSD 进程资源限制和优先级函数
+Summary(cs.UTF-8):	Funkce pro BSD limity zdrojů a priority procesů
+Summary(da.UTF-8):	BSD-procesresursegrænse- og -prioritetsfunktioner
+Summary(de.UTF-8):	Funktionen zum Einstellen von Einschränkungen und Prioritäten der Ressourcen des BSD-Prozesses
+Summary(es.UTF-8):	Funciones de prioridad y limite de recusros del proceso BSD
+Summary(fr.UTF-8):	Limite de ressource de processus BSD et fonctions prioritaires
+Summary(it.UTF-8):	Impostazione dei limiti e delle priorità delle risorse del processo BSD
+Summary(ja.UTF-8):	BSDのプロセスリソースの制限と優先度の機能
+Summary(ko.UTF-8):	BSD 프로세스 자원 한계와 우선 순위 함수
+Summary(pl.UTF-8):	Moduł Perla z funkcjami BSD obsługującymi limity zasobów dla procesów
+Summary(pt.UTF-8):	Funções de limitação de recursos e prioridades dos processos do BSD
+Summary(pt_BR.UTF-8):	Funções de limitação de recursos e prioridades dos processos do BSD
+Summary(sv.UTF-8):	BSD-processresursgräns- och -prioritetsfunktioner
+Summary(tr.UTF-8):	BSD süreç özkaynak sınırı ve önceliği işlevleri
+Summary(zh_CN.UTF-8):	BSD 进程资源限制和优先级函数
 Name:		perl-BSD-Resource
 Version:	1.28
 Release:	1
