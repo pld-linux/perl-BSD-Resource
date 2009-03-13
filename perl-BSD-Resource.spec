@@ -23,7 +23,7 @@ Summary(tr.UTF-8):	BSD süreç özkaynak sınırı ve önceliği işlevleri
 Summary(zh_CN.UTF-8):	BSD 进程资源限制和优先级函数
 Name:		perl-BSD-Resource
 Version:	1.2901
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
