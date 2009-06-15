@@ -22,13 +22,13 @@ Summary(sv.UTF-8):	BSD-processresursgräns- och -prioritetsfunktioner
 Summary(tr.UTF-8):	BSD süreç özkaynak sınırı ve önceliği işlevleri
 Summary(zh_CN.UTF-8):	BSD 进程资源限制和优先级函数
 Name:		perl-BSD-Resource
-Version:	1.2901
-Release:	2
+Version:	1.2903
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bc8e53406276e5832feac065fef9223f
+# Source0-md5:	76c587796c4f090a4487835843f40548
 URL:		http://search.cpan.org/dist/BSD-Resource/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
