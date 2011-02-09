@@ -22,13 +22,13 @@ Summary(sv.UTF-8):	BSD-processresursgräns- och -prioritetsfunktioner
 Summary(tr.UTF-8):	BSD süreç özkaynak sınırı ve önceliği işlevleri
 Summary(zh_CN.UTF-8):	BSD 进程资源限制和优先级函数
 Name:		perl-BSD-Resource
-Version:	1.2903
-Release:	5
+Version:	1.2904
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	76c587796c4f090a4487835843f40548
+Source0:	http://www.cpan.org/modules/by-module/BSD/JHI/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	e6b31521b11a27b8266141a7b15f58a8
 URL:		http://search.cpan.org/dist/BSD-Resource/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -74,7 +74,7 @@ priorità dei processi.
 제공하는 모듈.
 
 %description -l pl.UTF-8
-To rozszerzenie Perle jest implementacją funkcji BSD dotyczących
+To rozszerzenie Perla jest implementacją funkcji BSD dotyczących
 limitów zasobów dla procesów (getrusage(), getrlimit(), setrlimit())
 oraz funkcji BSD związanych z priorytetami procesów. Są one dostępne
 także z podstawowego Perla, ale ten moduł pozwala na więcej sztuczek,
@@ -125,4 +125,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/auto/BSD/Resource/autosplit.ix
 %{perl_vendorarch}/auto/BSD/Resource/Resource.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/BSD/Resource/Resource.so
-%{_mandir}/man3/*
+%{_mandir}/man3/BSD::Resource.3pm*
