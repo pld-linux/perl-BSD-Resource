@@ -27,7 +27,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/BSD/JHI/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/BSD/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3a67959a30fd6e537b9d8a64d60d8692
 URL:		http://search.cpan.org/dist/BSD-Resource/
 BuildRequires:	perl-devel >= 1:5.8.0
