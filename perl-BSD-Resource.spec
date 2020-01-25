@@ -3,7 +3,6 @@
 %bcond_with	tests	# do not perform "make test"
 # hgw why it doesn't work on builders... temporary disables.
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	BSD
 %define		pnam	Resource
 Summary:	Perl module with BSD process resource limit and priority functions
