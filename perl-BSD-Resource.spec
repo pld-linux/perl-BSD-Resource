@@ -28,9 +28,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/BSD/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3a67959a30fd6e537b9d8a64d60d8692
-URL:		http://search.cpan.org/dist/BSD-Resource/
+URL:		https://metacpan.org/dist/BSD-Resource
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
